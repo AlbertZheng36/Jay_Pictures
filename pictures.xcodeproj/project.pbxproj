@@ -22,6 +22,20 @@
 		958CAC5518FF02C80016D340 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 958CAC3418FF02C80016D340 /* UIKit.framework */; };
 		958CAC5D18FF02C80016D340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 958CAC5B18FF02C80016D340 /* InfoPlist.strings */; };
 		958CAC5F18FF02C80016D340 /* picturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 958CAC5E18FF02C80016D340 /* picturesTests.m */; };
+		958CAC6A18FF05280016D340 /* PictureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958CAC6918FF05280016D340 /* PictureTableViewController.m */; };
+		958CAC6D18FF061F0016D340 /* PictureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 958CAC6C18FF061F0016D340 /* PictureTableViewCell.m */; };
+		95952A9F1904577100656E78 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95952A951904577100656E78 /* 1.jpg */; };
+		95952AA01904577100656E78 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95952A961904577100656E78 /* 2.jpg */; };
+		95952AA11904577100656E78 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95952A971904577100656E78 /* 3.jpg */; };
+		95952AA21904577100656E78 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95952A981904577100656E78 /* 4.jpg */; };
+		95952AA31904577100656E78 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95952A991904577100656E78 /* 5.jpg */; };
+		95952AA41904577100656E78 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95952A9A1904577100656E78 /* 6.jpg */; };
+		95952AA51904577100656E78 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95952A9B1904577100656E78 /* 7.jpg */; };
+		95952AA61904577100656E78 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95952A9C1904577100656E78 /* 8.jpg */; };
+		95952AA71904577100656E78 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95952A9D1904577100656E78 /* 9.jpg */; };
+		95952AA81904577100656E78 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95952A9E1904577100656E78 /* 10.jpg */; };
+		95952AAE19046F7600656E78 /* PictureCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95952AAD19046F7600656E78 /* PictureCollectionViewController.m */; };
+		95952AB119046FE900656E78 /* PictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95952AB019046FE900656E78 /* PictureCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +69,24 @@
 		958CAC5A18FF02C80016D340 /* picturesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "picturesTests-Info.plist"; sourceTree = "<group>"; };
 		958CAC5C18FF02C80016D340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		958CAC5E18FF02C80016D340 /* picturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = picturesTests.m; sourceTree = "<group>"; };
+		958CAC6818FF05280016D340 /* PictureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureTableViewController.h; sourceTree = "<group>"; };
+		958CAC6918FF05280016D340 /* PictureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureTableViewController.m; sourceTree = "<group>"; };
+		958CAC6B18FF061F0016D340 /* PictureTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureTableViewCell.h; sourceTree = "<group>"; };
+		958CAC6C18FF061F0016D340 /* PictureTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureTableViewCell.m; sourceTree = "<group>"; };
+		95952A951904577100656E78 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		95952A961904577100656E78 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		95952A971904577100656E78 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		95952A981904577100656E78 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		95952A991904577100656E78 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		95952A9A1904577100656E78 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		95952A9B1904577100656E78 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		95952A9C1904577100656E78 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		95952A9D1904577100656E78 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		95952A9E1904577100656E78 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		95952AAC19046F7600656E78 /* PictureCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCollectionViewController.h; sourceTree = "<group>"; };
+		95952AAD19046F7600656E78 /* PictureCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCollectionViewController.m; sourceTree = "<group>"; };
+		95952AAF19046FE900656E78 /* PictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCollectionViewCell.h; sourceTree = "<group>"; };
+		95952AB019046FE900656E78 /* PictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +149,17 @@
 				958CAC3F18FF02C80016D340 /* AppDelegate.h */,
 				958CAC4018FF02C80016D340 /* AppDelegate.m */,
 				958CAC4218FF02C80016D340 /* Main_iPhone.storyboard */,
+				95952AAF19046FE900656E78 /* PictureCollectionViewCell.h */,
+				95952AB019046FE900656E78 /* PictureCollectionViewCell.m */,
+				95952AAC19046F7600656E78 /* PictureCollectionViewController.h */,
+				95952AAD19046F7600656E78 /* PictureCollectionViewController.m */,
 				958CAC4518FF02C80016D340 /* Main_iPad.storyboard */,
 				958CAC4818FF02C80016D340 /* ViewController.h */,
 				958CAC4918FF02C80016D340 /* ViewController.m */,
+				958CAC6818FF05280016D340 /* PictureTableViewController.h */,
+				958CAC6B18FF061F0016D340 /* PictureTableViewCell.h */,
+				958CAC6C18FF061F0016D340 /* PictureTableViewCell.m */,
+				958CAC6918FF05280016D340 /* PictureTableViewController.m */,
 				958CAC4B18FF02C80016D340 /* Images.xcassets */,
 				958CAC3718FF02C80016D340 /* Supporting Files */,
 			);
@@ -129,6 +169,16 @@
 		958CAC3718FF02C80016D340 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				95952A951904577100656E78 /* 1.jpg */,
+				95952A961904577100656E78 /* 2.jpg */,
+				95952A971904577100656E78 /* 3.jpg */,
+				95952A981904577100656E78 /* 4.jpg */,
+				95952A991904577100656E78 /* 5.jpg */,
+				95952A9A1904577100656E78 /* 6.jpg */,
+				95952A9B1904577100656E78 /* 7.jpg */,
+				95952A9C1904577100656E78 /* 8.jpg */,
+				95952A9D1904577100656E78 /* 9.jpg */,
+				95952A9E1904577100656E78 /* 10.jpg */,
 				958CAC3818FF02C80016D340 /* pictures-Info.plist */,
 				958CAC3918FF02C80016D340 /* InfoPlist.strings */,
 				958CAC3C18FF02C80016D340 /* main.m */,
@@ -231,10 +281,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95952AA71904577100656E78 /* 9.jpg in Resources */,
+				95952AA61904577100656E78 /* 8.jpg in Resources */,
+				95952AA51904577100656E78 /* 7.jpg in Resources */,
+				95952AA21904577100656E78 /* 4.jpg in Resources */,
+				95952AA01904577100656E78 /* 2.jpg in Resources */,
 				958CAC4718FF02C80016D340 /* Main_iPad.storyboard in Resources */,
+				95952AA31904577100656E78 /* 5.jpg in Resources */,
+				95952AA41904577100656E78 /* 6.jpg in Resources */,
+				95952AA81904577100656E78 /* 10.jpg in Resources */,
 				958CAC4C18FF02C80016D340 /* Images.xcassets in Resources */,
 				958CAC4418FF02C80016D340 /* Main_iPhone.storyboard in Resources */,
 				958CAC3B18FF02C80016D340 /* InfoPlist.strings in Resources */,
+				95952AA11904577100656E78 /* 3.jpg in Resources */,
+				95952A9F1904577100656E78 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				958CAC4A18FF02C80016D340 /* ViewController.m in Sources */,
+				95952AB119046FE900656E78 /* PictureCollectionViewCell.m in Sources */,
+				958CAC6D18FF061F0016D340 /* PictureTableViewCell.m in Sources */,
 				958CAC4118FF02C80016D340 /* AppDelegate.m in Sources */,
+				958CAC6A18FF05280016D340 /* PictureTableViewController.m in Sources */,
 				958CAC3D18FF02C80016D340 /* main.m in Sources */,
+				95952AAE19046F7600656E78 /* PictureCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +538,7 @@
 				958CAC6418FF02C80016D340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		958CAC6518FF02C80016D340 /* Build configuration list for PBXNativeTarget "picturesTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +547,7 @@
 				958CAC6718FF02C80016D340 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
